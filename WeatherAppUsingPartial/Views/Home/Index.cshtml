@@ -1,0 +1,13 @@
+﻿@model IEnumerable<CityWeather>
+
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="container">
+        <partial name="_ListPartialView" model="@Model"></partial>
+@*        @await Html.PartialAsync("_ListPartialView", Model)
+*@    </div>
+</body>
+</html>
+
+
